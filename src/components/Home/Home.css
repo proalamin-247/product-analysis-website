@@ -1,0 +1,45 @@
+.home-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 100px;
+    background-color: #ECEFF1;
+}
+
+.details{
+        margin-left: 150px;
+}
+.half-width h1 {
+    color: rgb(0, 0, 0);
+    font-size: 55px;
+    margin-top: 250px;
+    margin-bottom: 0px;
+}
+.half-width p{
+    margin-top: 0px;
+}
+
+.half-width img {
+    width: 95%;
+}
+
+.button {
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    display: inline-block;
+    background-color: #e44680;
+    padding: 10px 24px;
+    transition: 1s;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.button .fas {
+    margin-right: 10px;
+}
