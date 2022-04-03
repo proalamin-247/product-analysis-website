@@ -1,10 +1,10 @@
 import React from 'react';
-import { Area, AreaChart, Bar, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
-import './StackedAreaChart.css'
+import { Bar, BarChart, CartesianGrid, Legend, Tooltip, XAxis, YAxis } from 'recharts';
+import './PieChart.css'
 
-const StackedAreaChart = () => {
+const PieChart = () => {
 
-    const data =[
+    const data = [
         {
             "month": "Mar",
             "investment": 10000,
@@ -42,40 +42,35 @@ const StackedAreaChart = () => {
             "revenue": 61000
         }
     ]
-
-
     return (
         <div className='chart-area'>
             <div className='chart-title'>
-                <h2>Invesment - Sell - Revenue</h2>
+                <h2>Invesment - Revenue</h2>
                 <h5>Last 6 months</h5>
             </div>
             <div>
-                <AreaChart
+                <BarChart
                     width={650}
                     height={450}
-                    // data={data}
                     data={data}
                     margin={{
-                        top: 10,
+                        top: 5,
                         right: 30,
-                        left: 0,
-                        bottom: 0,
+                        left: 20,
+                        bottom: 5,
                     }}
                 >
                     <CartesianGrid strokeDasharray="3 3" />
-                    {/* <XAxis dataKey="name" /> */}
                     <XAxis dataKey="month" />
                     <YAxis />
                     <Tooltip />
                     <Legend />
-                    <Area type="monotone" dataKey="investment" stackId="1" stroke="#8884d8" fill="#8884d8" />
-                    <Area type="monotone" dataKey="sell" stackId="1" stroke="#82ca9d" fill="#82ca9d" />
-                    <Area type="monotone" dataKey="revenue" stackId="1" stroke="#ffc658" fill="#ffc658" />
-                </AreaChart>
+                    <Bar dataKey="investment" fill="#8884d8" />
+                    <Bar dataKey="revenue" fill="#82ca9d" />
+                </BarChart>
             </div>
         </div>
     );
 };
 
-export default StackedAreaChart;
+export default PieChart;

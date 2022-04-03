@@ -1,6 +1,7 @@
-.dashboard-container{
-
+.dashboard-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
 }
-.stacked-chart-area{
-    
+.stacked-chart-area {
 }
