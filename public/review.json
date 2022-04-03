@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "name": "Lionel Messi",
+        "comment":"I loved the color of the cleats they contrasted well and the cleat fit well on my foot",
+        "ratting":"4.9"
+    },
+    {
+        "id": "2",
+        "name": "Cristiano Ronaldo",
+        "comment":"Fits like a glove. Very light and comfortable. I feel like I have amazing control of the ball.",
+        "ratting":"4.8"
+    },
+    {
+        "id": "3",
+        "name": "Neymar Jr.",
+        "comment":"This is my first pair of cleats that are of high quality and just fit perfect",
+        "ratting":"4.9"
+    },
+    {
+        "id": "4",
+        "name": "Paulo Dybala",
+        "comment":"Great boots, true to size but a little tight in the midfoot but this fixes itself after a few hours of playing.",
+        "ratting":"4.7"
+    },
+    {
+        "id": "5",
+        "name": "Mesut Ozil",
+        "comment":"Super lightweight. Fits like a sock! Great traction when changing direction. I went a size and a half up",
+        "ratting":"4.8"
+    },
+    {
+        "id": "6",
+        "name": "Mauro Icardi",
+        "comment":"Had to return it in the end, due to it not fitting as well as I wanted it. Nice looking boot otherwise",
+        "ratting":"4.9"
+    }
+]
