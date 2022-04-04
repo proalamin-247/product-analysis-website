@@ -4,8 +4,8 @@ import { FaQuoteLeft } from 'react-icons/fa';
 import { FaQuoteRight } from 'react-icons/fa';
 
 
-const Review = (props) => {
-    const {id, name,img, comment, ratting}= props.review;
+const Review = ({review}) => {
+    const {name,img, comment, ratting}= review;
     return (
             <div className='card-container' >
                 <div className='qoute-icon'><FaQuoteLeft /></div>
