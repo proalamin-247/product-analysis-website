@@ -15,7 +15,7 @@ link:- https://pro-product-analysis.netlify.app
 <br/>
 
 * Home Page -
-    * first look to see prodect details than nutton and other side to see products image 
+    * first look to see prodect details and other side to see products image 
     * than see 3 Reviews 
     * and than see a Button (see all reviews). If you click this button you visit to all reviews.           
 * Reviews Page -
