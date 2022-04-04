@@ -13,11 +13,11 @@ link:- https://pro-product-analysis.netlify.app
     * About
 <br/>
 <br/>
-<br/>
+
 * Home Page -
     * first look to see prodect details than nutton and other side to see products image 
     * than see 3 Reviews 
-    * see a Button (see all reviews). If you click this button you visit to all reviews.           
+    * and than see a Button (see all reviews). If you click this button you visit to all reviews.           
 * Reviews Page -
     * see to all reviews
         * reviews card have comment , author picture, name and ratting
