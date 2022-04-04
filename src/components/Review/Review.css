@@ -1,0 +1,44 @@
+.card-container {
+  width: 500px; 
+  border: 3px solid rgba(145, 155, 163, 0.664);
+  border-radius: 10px;
+  position: relative;
+  padding: 20px;
+}
+.author-info {
+  margin: 0 14px;
+  text-align: center;
+}
+
+.comment{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.qoute-icon{
+    align-items: center;
+    text-align: center;
+}
+
+.author-info img {
+  height: 186px;
+  width: 186px;
+  border-radius: 8px;
+  border-radius: 50%;
+  margin: 7px;
+  margin-top: 15px;
+}
+
+.author-name{
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 25px;
+}
+
+.author-info p {
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+.ratting{
+    font-weight: bold;
+}

@@ -2,37 +2,43 @@
     {
         "id": "1",
         "name": "Lionel Messi",
+        "img":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR_BSXPlBjoBeJruSaCamv7kQuMNjoIIWX0CITXUVoapFCbRM9g",
         "comment":"I loved the color of the cleats they contrasted well and the cleat fit well on my foot",
         "ratting":"4.9"
     },
     {
         "id": "2",
         "name": "Cristiano Ronaldo",
+        "img":"https://sm.imgix.net/17/02/cristiano-ronaldo.jpg?w=640&h=480&auto=compress,format&fit=clip",
         "comment":"Fits like a glove. Very light and comfortable. I feel like I have amazing control of the ball.",
         "ratting":"4.8"
     },
     {
         "id": "3",
         "name": "Neymar Jr.",
+        "img":"https://images.wsj.net/im-471356?width=1280&size=1",
         "comment":"This is my first pair of cleats that are of high quality and just fit perfect",
         "ratting":"4.9"
     },
     {
         "id": "4",
-        "name": "Paulo Dybala",
+        "name": "Kylian Mbappé",
+        "img":"https://www.thefamouspeople.com/profiles/images/kylian-mbapp-1.jpg",
         "comment":"Great boots, true to size but a little tight in the midfoot but this fixes itself after a few hours of playing.",
         "ratting":"4.7"
     },
     {
-        "id": "5",
-        "name": "Mesut Ozil",
-        "comment":"Super lightweight. Fits like a sock! Great traction when changing direction. I went a size and a half up",
-        "ratting":"4.8"
+      "id": "5",
+      "img": "https://resources.premierleague.com/premierleague/photos/players/250x250/p37605.png",
+      "name": "Mesut Ozil",
+      "comment": "Super lightweight. Fits like a sock! Great traction when changing direction. I went a size and a half up",
+      "ratting": "4.8"
     },
     {
-        "id": "6",
-        "name": "Mauro Icardi",
-        "comment":"Had to return it in the end, due to it not fitting as well as I wanted it. Nice looking boot otherwise",
-        "ratting":"4.9"
+      "id": "6",
+      "img": "https://s.hs-data.com/bilder/spieler/gross/180241.jpg",
+      "name": "Mauro Icardi",
+      "comment": "Had to return it in the end, due to it not fitting as well as I wanted it. Nice looking and features boot otherwise",
+      "ratting": "4.9"
     }
 ]
