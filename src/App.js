@@ -8,6 +8,7 @@ import About from './components/About/About';
 import NotFound from './components/NotFound/NotFound';
 import Blogs from './components/Blogs/Blogs';
 
+
 function App() {
   return (
     <>

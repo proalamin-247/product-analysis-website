@@ -1,9 +1,7 @@
 import React from 'react';
 import './Home.css'
 import shoe from '../Media/img/shoe.webp'
-import Reviews from '../Reviews/Reviews';
 import { Link, useNavigate } from 'react-router-dom';
-import Footer from '../Footer/Footer';
 import useReviews from '../Hooks/useReviews';
 import Review from '../Review/Review';
 
@@ -45,7 +43,7 @@ const Home = () => {
                     <button className="all-reviews-btn" onClick={() => navigation('/reviews')}>See all reviews</button>
                 </div>
             </div>
-            <Footer></Footer>
+            
         </>
     );
 };
