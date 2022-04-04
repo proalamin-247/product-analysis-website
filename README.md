@@ -24,7 +24,7 @@ link:- https://pro-product-analysis.netlify.app
 * Dashboard Page-
     * see to Area Chart and Bar Chart
         * both chart compare last 6 months Invesment - Sell - Revenue
-* BBlogs Page -
+* Blogs Page -
     * see to 2 questions answer
 * About Page -
     * see to litte bit about us
